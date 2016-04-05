@@ -1,0 +1,12 @@
+#wrapper{
+    text-align:center
+}
+
+.field{
+    background-color: lightskyblue;
+    margin: 0 auto;
+    display: inline-block;
+}
+#bottomField{
+    background-color: cornflowerblue;
+}

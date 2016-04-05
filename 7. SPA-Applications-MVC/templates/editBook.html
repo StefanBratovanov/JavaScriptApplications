@@ -1,0 +1,12 @@
+<h3>Edit book</h3>
+{{#book}}
+<form id={{id}}>
+    <label for="bookTitle">book title</label>
+    <input type="text" id="bookTitle" placeholder={{title}}>
+    <label for="bookAuthor">Author</label>
+    <input type="text" id="bookAuthor" placeholder={{author}}>
+    <label for="bookISBN">ISBN:</label>
+    <input type="text" id="bookISBN" value={{isbn}}>
+    <button type="button" id="editBookButton">Edit book</button>
+</form>
+{{/book}}

@@ -1,0 +1,9 @@
+basic auth:
+	username: app_id,
+	pass: app_secret
+***********
+	username: your username: ,
+	pass: your pass
+	---refresh headers
+Logout:
+	Authorization: Kinvey tokenOnLogin

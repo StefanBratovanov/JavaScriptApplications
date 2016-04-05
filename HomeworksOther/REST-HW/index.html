@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>REST Books</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<script src="libs/jquery-2.2.1.js"></script>
+<script src="libs/sammy.js"></script>
+
+<div align="center" style="border: 1px solid black;">
+    <strong>User:  homework / Pass:  123</strong>
+</div>
+
+<div id="wrapper">
+<fieldset class="field">
+    <label for="username">Username:</label>
+    <input type="text" id="username" placeholder="Username">
+    <label for="password">Password</label>
+    <input type="text" id="password" placeholder="Password">
+    <button id="login">Login</button>
+    <br>
+</fieldset>
+    <br>
+    <fieldset class="field" id="bottomField">
+        <label for="name">Name: </label><br>
+        <input type="text" id="name"><br>
+        <label for="author">Author: </label><br>
+        <input type="text" id="author"><br>
+        <label for="isbn">ISBN: </label><br>
+        <input type="text" id="isbn"><br>
+        <button id="create-book">Create</button>
+    </fieldset>
+    <br>
+    <div id="book-container"></div>
+
+</div>
+</body>
+<footer>
+    <script src="scripts/createBook.js"></script>
+    <script src="scripts/deleteBook.js"></script>
+    <script src="scripts/editBook.js"></script>
+    <script src="scripts/eventListener.js"></script>
+    <script src="scripts/listBooks.js"></script>
+    <script src="scripts/login.js"></script>
+    <script src="scripts/requester.js"></script>
+    <script src="app.js"></script>
+</footer>
+</html>

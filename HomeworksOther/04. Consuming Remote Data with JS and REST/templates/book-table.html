@@ -1,0 +1,23 @@
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    {{#books}}
+    <tbody>
+        <tr>
+            <td>{{title}}</td>
+            <td>{{author}}</td>
+            <td>{{isbn}}</td>
+            <td id="{{_id}}">
+                <button class="edit"><a href="#/editBook/{{_id}}">Edit</a></button>
+                <button class="delete"><a href="#/delete/{{_id}}">X</a></button>
+            </td>
+        </tr>
+    </tbody>
+    {{/books}}
+</table>
